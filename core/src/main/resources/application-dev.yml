@@ -1,0 +1,26 @@
+server:
+  port: 8091
+
+# 线程池配置
+thread:
+  pool:
+    executor:
+      config:
+        core-pool-size: 300
+        max-pool-size: 600
+        keep-alive-time: 500
+        block-queue-size: 5000
+        policy: CallerRunsPolicy
+
+# redis配置
+redis:
+  config:
+    enable: true
+    host: localhost
+    port: 6379
+
+# 日志
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml

@@ -1,0 +1,22 @@
+server:
+  port: 8089
+
+redis:
+  admin:
+    config:
+      host: localhost
+      port: 6379
+      pool-size: 64
+      min-idle-size: 24
+      # TimeUnit: ms
+      idle-timeout: 10000
+      connect-timeout: 10000
+      retry-attempts: 3
+      retry-interval: 1500
+      ping-interval: 30000
+      keep-alive: true
+
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml

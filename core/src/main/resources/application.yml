@@ -1,0 +1,6 @@
+application:
+  name: DTP
+
+spring:
+  profiles:
+    active: dev

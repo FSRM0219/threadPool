@@ -1,0 +1,227 @@
+24-08-21.15:59:48.015 [main            ] INFO  Application            - Starting Application using Java 1.8.0_321 on XPRJ0219 with PID 19884 (E:\Project\Java\threadPool\core\target\classes started by 34907 in E:\Project\Java\threadPool)
+24-08-21.15:59:48.017 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-08-21.15:59:48.585 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-21.15:59:48.587 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-21.15:59:48.603 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-08-21.15:59:48.939 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-08-21.15:59:48.945 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-08-21.15:59:48.946 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-08-21.15:59:48.946 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-08-21.15:59:49.073 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-08-21.15:59:49.073 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1024 ms
+24-08-21.15:59:49.473 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.15:59:49.881 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.15:59:49.925 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.15:59:50.262 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.15:59:50.275 [redisson-netty-5-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.15:59:50.311 [redisson-netty-5-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.15:59:50.311 [main            ] INFO  AutoConfig             - 动态线程池，注册器（redis）链接初始化完成。localhost 64 true
+24-08-21.15:59:50.348 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-21.15:59:50.368 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-08-21.15:59:50.376 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-08-21.15:59:50.383 [main            ] INFO  ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+24-08-21.15:59:50.389 [main            ] INFO  Application            - Started Application in 2.744 seconds (JVM running for 3.542)
+24-08-21.16:00:00.124 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池信息：[{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":13,"queueType":"LinkedBlockingQueue","remainingCapacity":4987,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-08-21.16:00:00.126 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":13,"queueType":"LinkedBlockingQueue","remainingCapacity":4987,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.16:00:00.128 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-08-21.16:00:02.574 [main            ] INFO  Application            - Starting Application using Java 1.8.0_321 on XPRJ0219 with PID 10672 (E:\Project\Java\threadPool\admin\target\classes started by 34907 in E:\Project\Java\threadPool)
+24-08-21.16:00:02.575 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-08-21.16:00:03.041 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-21.16:00:03.042 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-21.16:00:03.054 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+24-08-21.16:00:03.294 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-08-21.16:00:03.299 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-08-21.16:00:03.300 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-08-21.16:00:03.300 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-08-21.16:00:03.412 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-08-21.16:00:03.412 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 810 ms
+24-08-21.16:00:03.635 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.16:00:03.971 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.16:00:04.011 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.16:00:04.159 [main            ] INFO  WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+24-08-21.16:00:04.396 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-21.16:00:04.412 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-08-21.16:00:04.418 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-08-21.16:00:04.427 [main            ] INFO  Application            - Started Application in 2.168 seconds (JVM running for 2.985)
+24-08-21.16:00:05.238 [RMI TCP Connection(2)-10.196.91.191] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-08-21.16:00:05.238 [RMI TCP Connection(2)-10.196.91.191] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-08-21.16:00:05.239 [RMI TCP Connection(2)-10.196.91.191] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-08-21.16:00:20.004 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池信息：[{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":230,"queueType":"LinkedBlockingQueue","remainingCapacity":4770,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-08-21.16:00:20.005 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":230,"queueType":"LinkedBlockingQueue","remainingCapacity":4770,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.16:00:20.006 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-08-21.16:00:40.003 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池信息：[{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":474,"queueType":"LinkedBlockingQueue","remainingCapacity":4526,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-08-21.16:00:40.004 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":474,"queueType":"LinkedBlockingQueue","remainingCapacity":4526,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.16:00:40.005 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-08-21.16:01:00.011 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池信息：[{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":732,"queueType":"LinkedBlockingQueue","remainingCapacity":4268,"threadPoolName":"threadPoolExecutor01"},{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}]
+24-08-21.16:01:00.012 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":732,"queueType":"LinkedBlockingQueue","remainingCapacity":4268,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.16:01:00.012 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-08-21.17:28:15.635 [main            ] INFO  Application            - Starting Application using Java 1.8.0_321 on XPRJ0219 with PID 23352 (E:\Project\Java\threadPool\core\target\classes started by 34907 in E:\Project\Java\threadPool)
+24-08-21.17:28:15.637 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-08-21.17:28:16.113 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-21.17:28:16.114 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-21.17:28:16.126 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+24-08-21.17:28:16.413 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-08-21.17:28:16.418 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-08-21.17:28:16.419 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-08-21.17:28:16.419 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-08-21.17:28:16.533 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-08-21.17:28:16.533 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 868 ms
+24-08-21.17:28:16.879 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.17:28:17.246 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.17:28:17.289 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.17:28:17.585 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.17:28:17.598 [redisson-netty-5-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.17:28:17.636 [redisson-netty-5-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.17:28:17.636 [main            ] INFO  AutoConfig             - 动态线程池，注册器（redis）链接初始化完成。localhost 64 true
+24-08-21.17:28:17.692 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-21.17:28:17.711 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-08-21.17:28:17.717 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-08-21.17:28:17.725 [main            ] INFO  ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+24-08-21.17:28:17.731 [main            ] INFO  Application            - Started Application in 2.431 seconds (JVM running for 3.224)
+24-08-21.17:28:20.086 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":89,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":91,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.17:28:20.087 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-08-21.17:28:23.655 [main            ] INFO  Application            - Starting Application using Java 1.8.0_321 on XPRJ0219 with PID 22416 (E:\Project\Java\threadPool\admin\target\classes started by 34907 in E:\Project\Java\threadPool)
+24-08-21.17:28:23.657 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-08-21.17:28:24.137 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-21.17:28:24.138 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-21.17:28:24.151 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+24-08-21.17:28:24.394 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-08-21.17:28:24.399 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-08-21.17:28:24.399 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-08-21.17:28:24.399 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-08-21.17:28:24.512 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-08-21.17:28:24.512 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 825 ms
+24-08-21.17:28:24.743 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.17:28:25.077 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.17:28:25.117 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.17:28:25.268 [main            ] INFO  WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+24-08-21.17:28:25.512 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-21.17:28:25.530 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-08-21.17:28:25.537 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-08-21.17:28:25.547 [main            ] INFO  Application            - Started Application in 2.217 seconds (JVM running for 3.015)
+24-08-21.17:28:26.327 [RMI TCP Connection(2)-10.196.91.191] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-08-21.17:28:26.327 [RMI TCP Connection(2)-10.196.91.191] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-08-21.17:28:26.328 [RMI TCP Connection(2)-10.196.91.191] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-08-21.17:28:40.005 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":175,"queueType":"LinkedBlockingQueue","remainingCapacity":4825,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.17:28:40.007 [pool-4-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":0,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":0,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor02"}
+24-08-21.21:33:44.722 [main            ] INFO  Application            - Starting Application using Java 1.8.0_321 on XPRJ0219 with PID 10644 (E:\Project\Java\threadPool\core\target\classes started by 34907 in E:\Project\Java\threadPool)
+24-08-21.21:33:44.724 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-08-21.21:33:45.214 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-21.21:33:45.215 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-21.21:33:45.227 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+24-08-21.21:33:45.521 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-08-21.21:33:45.526 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-08-21.21:33:45.526 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-08-21.21:33:45.526 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-08-21.21:33:45.645 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-08-21.21:33:45.645 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 891 ms
+24-08-21.21:33:45.998 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.21:33:46.369 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:33:46.412 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:33:46.716 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.21:33:46.730 [redisson-netty-5-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:33:46.769 [redisson-netty-5-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:33:46.769 [main            ] INFO  AutoConfig             - 动态线程池，注册器（redis）链接初始化完成。localhost 64 true
+24-08-21.21:33:46.826 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-21.21:33:46.845 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-08-21.21:33:46.852 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-08-21.21:33:46.860 [main            ] INFO  ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+24-08-21.21:33:46.865 [main            ] INFO  Application            - Started Application in 2.52 seconds (JVM running for 3.249)
+24-08-21.21:33:54.658 [main            ] INFO  Application            - Starting Application using Java 1.8.0_321 on XPRJ0219 with PID 25564 (E:\Project\Java\threadPool\admin\target\classes started by 34907 in E:\Project\Java\threadPool)
+24-08-21.21:33:54.660 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-08-21.21:33:55.129 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-21.21:33:55.130 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-21.21:33:55.142 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+24-08-21.21:33:55.386 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-08-21.21:33:55.391 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-08-21.21:33:55.391 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-08-21.21:33:55.391 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-08-21.21:33:55.507 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-08-21.21:33:55.509 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 820 ms
+24-08-21.21:33:55.741 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.21:33:56.078 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:33:56.120 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:33:56.267 [main            ] INFO  WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+24-08-21.21:33:56.510 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-21.21:33:56.525 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-08-21.21:33:56.532 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-08-21.21:33:56.542 [main            ] INFO  Application            - Started Application in 2.207 seconds (JVM running for 2.876)
+24-08-21.21:33:56.713 [http-nio-8089-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-08-21.21:33:56.713 [http-nio-8089-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-08-21.21:33:56.713 [http-nio-8089-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-08-21.21:36:42.907 [main            ] INFO  Application            - Starting Application using Java 1.8.0_321 on XPRJ0219 with PID 23144 (E:\Project\Java\threadPool\admin\target\classes started by 34907 in E:\Project\Java\threadPool)
+24-08-21.21:36:42.909 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-08-21.21:36:43.385 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-21.21:36:43.387 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-21.21:36:43.400 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-08-21.21:36:43.642 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8089 (http)
+24-08-21.21:36:43.647 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8089"]
+24-08-21.21:36:43.648 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-08-21.21:36:43.648 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-08-21.21:36:43.761 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-08-21.21:36:43.761 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 823 ms
+24-08-21.21:36:43.986 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.21:36:44.325 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:36:44.367 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:36:44.513 [main            ] INFO  WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+24-08-21.21:36:44.749 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-21.21:36:44.764 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8089"]
+24-08-21.21:36:44.770 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8089 (http) with context path ''
+24-08-21.21:36:44.780 [main            ] INFO  Application            - Started Application in 2.195 seconds (JVM running for 2.871)
+24-08-21.21:36:45.386 [RMI TCP Connection(2)-10.196.91.191] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-08-21.21:36:45.386 [RMI TCP Connection(2)-10.196.91.191] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-08-21.21:36:45.387 [RMI TCP Connection(2)-10.196.91.191] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-08-21.21:36:52.049 [main            ] INFO  Application            - Starting Application using Java 1.8.0_321 on XPRJ0219 with PID 13164 (E:\Project\Java\threadPool\core\target\classes started by 34907 in E:\Project\Java\threadPool)
+24-08-21.21:36:52.052 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-08-21.21:36:52.529 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-21.21:36:52.530 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-21.21:36:52.543 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+24-08-21.21:36:52.827 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-08-21.21:36:52.832 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-08-21.21:36:52.833 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-08-21.21:36:52.833 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-08-21.21:36:52.946 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-08-21.21:36:52.946 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 863 ms
+24-08-21.21:36:53.286 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.21:36:53.652 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:36:53.694 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:36:53.986 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.21:36:53.999 [redisson-netty-5-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:36:54.036 [redisson-netty-5-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:36:54.036 [main            ] INFO  AutoConfig             - 动态线程池，注册器（redis）链接初始化完成。localhost 64 true
+24-08-21.21:36:54.069 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-21.21:36:54.089 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-08-21.21:36:54.096 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-08-21.21:36:54.103 [main            ] INFO  ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+24-08-21.21:36:54.109 [main            ] INFO  Application            - Started Application in 2.394 seconds (JVM running for 3.088)
+24-08-21.21:37:00.087 [pool-3-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":208,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":213,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.21:37:20.011 [pool-3-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":202,"queueType":"LinkedBlockingQueue","remainingCapacity":4798,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.21:37:40.017 [pool-3-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":401,"queueType":"LinkedBlockingQueue","remainingCapacity":4599,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.21:38:00.003 [pool-3-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":577,"queueType":"LinkedBlockingQueue","remainingCapacity":4423,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.21:38:20.001 [pool-3-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":781,"queueType":"LinkedBlockingQueue","remainingCapacity":4219,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.21:38:33.388 [main            ] INFO  Application            - Starting Application using Java 1.8.0_321 on XPRJ0219 with PID 19824 (E:\Project\Java\threadPool\core\target\classes started by 34907 in E:\Project\Java\threadPool)
+24-08-21.21:38:33.390 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-08-21.21:38:33.863 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-21.21:38:33.864 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-21.21:38:33.876 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+24-08-21.21:38:34.156 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-08-21.21:38:34.160 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-08-21.21:38:34.161 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-08-21.21:38:34.161 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-08-21.21:38:34.276 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-08-21.21:38:34.276 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+24-08-21.21:38:34.609 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.21:38:34.978 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:38:35.019 [redisson-netty-1-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:38:35.307 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-21.21:38:35.321 [redisson-netty-5-5] INFO  ConnectionsHolder      - 1 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:38:35.357 [redisson-netty-5-20] INFO  ConnectionsHolder      - 24 connections initialized for localhost/127.0.0.1:6379
+24-08-21.21:38:35.357 [main            ] INFO  AutoConfig             - 动态线程池，注册器（redis）链接初始化完成。localhost 64 true
+24-08-21.21:38:35.413 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-21.21:38:35.432 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-08-21.21:38:35.438 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-08-21.21:38:35.447 [main            ] INFO  ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+24-08-21.21:38:35.453 [main            ] INFO  Application            - Started Application in 2.377 seconds (JVM running for 3.057)
+24-08-21.21:38:40.080 [pool-3-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":177,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":180,"queueSize":0,"queueType":"LinkedBlockingQueue","remainingCapacity":5000,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.21:39:00.005 [pool-3-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":204,"queueType":"LinkedBlockingQueue","remainingCapacity":4796,"threadPoolName":"threadPoolExecutor01"}
+24-08-21.21:39:20.004 [pool-3-thread-1 ] INFO  DataReportJob          - 动态线程池，上报线程池配置：{"activeCount":300,"appName":"DTP","corePoolSize":300,"maximumPoolSize":600,"poolSize":300,"queueSize":400,"queueType":"LinkedBlockingQueue","remainingCapacity":4600,"threadPoolName":"threadPoolExecutor01"}
